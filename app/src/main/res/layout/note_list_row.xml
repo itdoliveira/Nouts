@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_row"
+    android:orientation="vertical">
+
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        android:layout_marginLeft="8dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/categoria"
+        android:layout_marginLeft="8dp"
+        android:text="Categoria: " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCategoria"
+        android:layout_toRightOf="@+id/categoria"
+        android:layout_marginLeft="8dp"
+        android:text="Categoria" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descricao"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/categoria"
+        android:text="Descrição: " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescricao"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/descricao"
+        android:layout_below="@+id/categoria"
+        android:text="Descrição" />
+
+
+</RelativeLayout>
